@@ -69,3 +69,4 @@ class LogoutApi(APIView):
         logout(request)
 
         return Response({"status": "User logged out successfully"}, status=status.HTTP_200_OK)
+
